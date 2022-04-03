@@ -1,0 +1,246 @@
+:root {
+    --header-color: #FFFFFF;
+    --first-title-color: #FFFFFF;
+    --second-title-color: #303030;
+    --first-btn-color: #FFFFFF;
+    --second-btn-color: #303030;
+    --accent-color: #ff6c00;
+}
+
+
+.list {
+   list-style: none; 
+}
+
+.link {
+    text-decoration: none;
+}
+
+.pre-title {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;  
+    letter-spacing: 0.1em;
+    text-transform: uppercase;    
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;    
+}
+
+.after-title {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+}
+
+.btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+/* --------Header--------- */
+.header {
+    background-color: grey;
+}
+.header-item,
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--header-color);
+}
+
+.header-item:hover,
+.header-item:focus {
+    color: var(--accent-color);
+}
+
+.header-btn {
+    color: var(--first-btn-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: grey;
+}
+
+.hero-item .link{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--second-btn-color);
+}
+
+.hero-item .link:hover,
+.hero-item .link:focus {
+    color: var(--accent-color);
+}
+
+.hero-pre-title {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    color: var(--first-title-color);
+}
+
+.hero-after-title {
+    color: #9DA4BD;
+}
+
+/* About */
+
+.about-pre-title {
+    color: var(--second-title-color);
+}
+
+.about-title {
+    color: var(--second-title-color);
+}
+
+.about-after-title {
+    color: #555555;
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-btn {
+    color: var(--second-btn-color);
+}
+
+/* Prices */
+.prices {
+    background-color: grey;
+}
+.prices-pre-title {
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.prices-title {
+    color: var(--first-title-color);
+}
+
+.prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;    
+}
+
+.prices-btn {
+    color: #FFFFFF;    
+}
+
+/* Reasons */
+.reasons-item-count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+}
+
+.reasons-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: var(--second-title-color);    
+}
+
+.reasons-pre-title {
+    color: var(--second-title-color);
+}
+
+.reasons-title {
+    color: var(--second-title-color);
+}
+
+.reasons-after-title {
+    color: #555555;
+}
+
+/* Masters */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+.masters-pre-title {
+    color: #303030;
+}
+
+.masters-title {
+    color: #303030;
+}
+
+.masters-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;    
+}
+
+.masters-item-text {
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);    
+}
+
+/* Gallery */
+.gallety-pre-title {
+    color: var(--second-title-color);
+}
+
+/* Footer */
+.footer-copy {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
+    color: #9DA4BD;    
+}
+
+.footer-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.37;
+    letter-spacing: 0.2em;
+    color: #303030;    
+}
